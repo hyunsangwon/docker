@@ -1,5 +1,5 @@
 # Dockerfile :whale:
- RUN을 활용한 컨테이너 활용  
+ RUN을 활용한 컨테이너 활용 및 이미지 배포  
 ## Dockerfile 작성법
  파일이름은 Dockerfile 파일 생성시 앞에는 무조건 대문자로 시작  
  확장명을 명시하지 않는다.
@@ -12,7 +12,9 @@
     5. docker image ls
     6. docker container run -it -d --name tomcatcontainer -p 80:8080 sangwondocker/tomcat8
     7. docker ps  
-    
+## 이미지 배포하기
+    1. docker login  
+    2. docker push sangwondocker/tomcat8  
 ## Dockerfile 문법
  FROM => 어떤 이미지 베이스인지  
  MAINTAINER => 이미지를 생성한 사람의 정보 (필수 아님)  
