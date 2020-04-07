@@ -6,7 +6,7 @@
 
 ## Getting started
     1. git clone https://github.com/HyunSangWon/docker.git  
-    2. cd docker/docker-file-practice
+    2. cd docker/docker-file-practice02
     3. ls
     4. docker build -t sangwondocker/tomcat8 .
     5. docker image ls
