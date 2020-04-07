@@ -1,5 +1,5 @@
 # Dockerfile :whale:
-
+ADD 문법을 활용한 컨테이너 구동  
 ## Dockerfile 작성법
  파일이름은 Dockerfile 파일 생성시 앞에는 무조건 대문자로 시작  
  확장명을 명시하지 않는다.
