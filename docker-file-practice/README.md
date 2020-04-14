@@ -12,6 +12,7 @@ ADD 문법을 활용한 컨테이너 구동
     5. docker image ls
     6. docker container run -it -d --name tomcatcontainer -p 80:8080 sangwondocker/tomcat8
     7. docker ps  
+    8. docker container logs [container id name]
     
 ## Dockerfile 문법
  FROM => 어떤 이미지 베이스인지  
