@@ -36,3 +36,4 @@
  - docker rmi [image id] (이미지 삭제)  
  - docker ps (실행중인 컨테이너 확인)  
  - docker container exec -it [container id] /bin/sh (컨테이너로 접속)
+ - docker restart [컨테이너 아이디] (컨테이너 재시작)  
