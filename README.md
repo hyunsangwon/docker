@@ -33,4 +33,4 @@
  - docker build -t [Name Of the Image]  . (Dockerfile 배포)  
  - docker rm [container id] (컨테이너 삭제)  
  - docker rmi [image id] (이미지 삭제)  
-
+ - docker ps (실행중인 컨테이너 확인)  
