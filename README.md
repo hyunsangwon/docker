@@ -34,4 +34,4 @@
  - docker rm [container id] (컨테이너 삭제)  
  - docker rmi [image id] (이미지 삭제)  
  - docker ps (실행중인 컨테이너 확인)  
- - docker container exec -it [container id] (컨테이너로 접속)
+ - docker container exec -it [container id] /bin/sh (컨테이너로 접속)
