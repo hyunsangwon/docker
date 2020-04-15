@@ -37,3 +37,7 @@
  - docker ps (실행중인 컨테이너 확인)  
  - docker container exec -it [container id] /bin/sh (컨테이너로 접속)
  - docker restart [컨테이너 아이디] (컨테이너 재시작)  
+
+## 해결해야 하는 이슈 모음
+ - 도커 컨테이너를 재시작하게 되면 기존 로그는 날라간다. 어떻게 로그를 관리할지?  
+ - Dockerfile 배포를 어떻게 하면 더 쉽게 할지...  
