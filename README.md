@@ -31,4 +31,6 @@
  - docker image ls (실행중인 도커 이미지 확인)  
  - docker run -it -d --name tomcatcontainer -p 80:8080 sangwondocker/tomcat8 (컨테이너 백그라운드로 실행)  
  - docker build -t [Name Of the Image]  . (Dockerfile 배포)  
+ - docker rm [container id] (컨테이너 삭제)  
+ - docker rmi [image id] (이미지 삭제)  
 
