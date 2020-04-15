@@ -19,6 +19,7 @@
 ## Dockerfile (파일에 자체 DSL Domain-specific language) 
  Docker Image를 생성하기 위해 명령어로 작성된 문서  
  Container 내부 환경을 정의함  
+ Dockerfile을 사용하면 서버 운영 기록을 코드로 관리할 수 있다
 
 ## Docker download on CentOS
  1. yum -y update
