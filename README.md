@@ -42,4 +42,4 @@
  - 도커 컨테이너를 재시작하게 되면 기존 로그는 날라간다. 어떻게 로그를 관리할지?  
  => answer : volume 옵션을 사용하자  
  - Dockerfile 배포를 어떻게 하면 더 쉽게 할지...  
- => docker-compose.yml 을 사용하자  
+ => answer : docker-compose.yml 을 사용하자  
