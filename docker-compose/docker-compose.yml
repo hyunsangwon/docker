@@ -1,12 +1,15 @@
-version: '3'
+version: '3.7'
 
-service:
+services:
   tomcat:
-    build:
-      context: .
-      dockerfile: /apps/sample/Dockerfile
+    build: .
+    image: sangwondocker/temp
+    container_name: tomcat-container
+    restart: always
     ports:
       - "80:8080"
     volumes:
-    - /logs/:/usr/local/tomcat/logs/
-    - /data/ROOT.war:/usr/local/tomcat/webapps/ROOT.war
+      - ./mydata:/usr/local/tomcat/webapps
+
+volumes: 
+  mydata:
